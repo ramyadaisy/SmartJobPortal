@@ -1,15 +1,15 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
-import BrowseJobs from "./pages/BrowseJobs";
-import Applications from "./pages/Applications";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import Dashboard from "./pages/dashboard";
+import BrowseJobs from "./pages/browseJobs";
+import Applications from "./pages/applications";
 
-import RecruiterLogin from "./pages/RecruiterLogin";
-import RecruiterRegister from "./pages/RecruiterRegister";
-import RecruiterDashboard from "./pages/RecruiterDashboard";
+import RecruiterLogin from "./pages/recruiterlogin";
+import RecruiterRegister from "./pages/recruiterregister";
+import RecruiterDashboard from "./pages/recruiterdashboard";
 
 function App() {
   return (
