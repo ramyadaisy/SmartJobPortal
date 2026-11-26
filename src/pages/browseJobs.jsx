@@ -1,5 +1,12 @@
 
+import { useEffect } from "react";
+
 function BrowseJobs() {
+
+  useEffect(() => {
+    console.log("Browse Jobs page loaded");
+  }, []);
+
   return (
     <div>
       <h2>Browse Jobs</h2>

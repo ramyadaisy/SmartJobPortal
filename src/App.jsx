@@ -16,15 +16,13 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-
+        <Route path="/registers" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/jobs" element={<BrowseJobs />} />
         <Route path="/applications" element={<Applications />} />
-
-        <Route path="/recruiter-login" element={<RecruiterLogin />} />
-        <Route path="/recruiter-register" element={<RecruiterRegister />} />
-        <Route path="/recruiter-dashboard" element={<RecruiterDashboard />} />
+        <Route path="/recruiterlogin" element={<RecruiterLogin />} />
+        <Route path="/recruiterregister" element={<RecruiterRegister />} />
+        <Route path="/recruiterdashboard" element={<RecruiterDashboard />} />
       </Routes>
     </BrowserRouter>
   );
