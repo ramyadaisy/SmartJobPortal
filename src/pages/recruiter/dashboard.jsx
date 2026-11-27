@@ -1,4 +1,6 @@
 
+import { Link } from "react-router-dom";
+
 function RecruiterDashboard() {
   return (
     <div>
@@ -13,13 +15,16 @@ function RecruiterDashboard() {
 
       <h3>Available Options</h3>
 
-      <button>Post Job</button>
+      <Link to="/postjob">Post Job</Link>
       <br /><br />
 
-      <button>View Applicants</button>
+      <Link to="/managejobs">Manage Jobs</Link>
       <br /><br />
 
-      <a href="/">Logout</a>
+      <Link to="/applicants">View Applicants</Link>
+      <br /><br />
+
+      <Link to="/recruiterlogin">Logout</Link>
     </div>
   );
 }
