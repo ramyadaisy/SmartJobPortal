@@ -16,7 +16,7 @@ function Applications() {
         <p>Status: Reviewed</p>
       </div>
 
-      <a href="/dashboard">Back to Dashboard</a>
+      <a dashboard="/dashboard">Back to Dashboard</a>
     </div>
   );
 }

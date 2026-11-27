@@ -6,13 +6,13 @@ function Dashboard() {
 
       <p>Welcome to Smart Job Portal!</p>
 
-      <a href="/jobs">Browse Jobs</a>
+      <a jobs="/jobs">Browse Jobs</a>
       <br /><br />
 
-      <a href="/applications">My Applications</a>
+      <a application="/applications">My Applications</a>
       <br /><br />
 
-      <a href="/">Logout</a>
+      <a lagout="/">Logout</a>
     </div>
   );
 }
